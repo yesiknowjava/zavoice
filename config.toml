@@ -1,0 +1,17 @@
+baseURL = "http://www.zavoice.com"
+languageCode = "en-us"
+title = "Zavoice"
+theme = "zavoicetheme"
+staticDir = ["static"]
+paginate = 10
+pygmentsUseClasses = true
+summaryLength = 15
+enableRobotsTXT = true
+googleAnalytics = "UA-70790861-3"
+author = "Z"
+
+[params]
+  defaultImage = "img/webhosting1.jpg"
+  SiteDescription = "Zavoice is a communication website"
+
+  

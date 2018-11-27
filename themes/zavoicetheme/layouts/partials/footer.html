@@ -1,0 +1,100 @@
+<div id="footer" class="block-wrapper">
+				<section class="landing-block js-animation animation-none animated" style="animation-duration: 1000ms; animation-play-state: running;">
+					<div class="text-center g-color-gray-dark-v3 g-pa-10">
+						<div class="g-width-600 mx-auto">
+							<div class="landing-block-node-text js-animation animation-none g-font-size-12 animated" style="animation-duration: 1000ms; animation-play-state: running;">
+								<p>© 2018 All rights reserved.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+	<div class="bitrix-footer">	<span class="bitrix-footer-text">Powered by</span>
+		<span class="bitrix-footer-text">— HUGO.</span>
+		<a class="bitrix-footer-link" target="_blank" href="{{ $.Site.BaseURL }}">Create Your Site</a>
+	</div>
+	<script type="text/javascript">
+		
+	</script>
+	<script type="text/javascript" src="{{ "js/core.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/core_promise.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/promise.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/loadext.min.js(1)" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/extension.min.js(1)" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/core_db.min.js(1)" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/core_ajax.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/json2.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/core_ls.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/core_fx.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/utils.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/event-tracker.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/base-service.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/google-analytics-service.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/iframe_api" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/base_mediaplayer.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/youtube_mediaplayer.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/mediaplayer_factory.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/polyfill.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/auto-font-scale.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/auto-font-scale-entry.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/block_event.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/public.min.js" | relURL }}"></script>
+	<script type="text/javascript">
+		var bxDate = new Date(); document.cookie="BITRIX_SM_TIME_ZONE="+bxDate.getTimezoneOffset()+"; path=/; expires=Fri, 01-Jan-2038 00:00:00 GMT"
+	</script>
+	<script type="text/javascript" src="{{ "js/vendors_base.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/onscroll-animation_init.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/go_to_init.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/popup_init.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/hamburgers_init.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/header_menu_init.min.js" | relURL }}"></script>
+	<script type="text/javascript" src="{{ "js/slick.min.js" | relURL }}"></script>
+	<script>
+		$(document).ready(function () {
+			$('.superslider').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 3000,
+				infinite: true,
+				dots: true,
+				arrows: false,
+				dotsClass: 'js-pagination u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30',
+				// appendDots:$('.superslider-paging'),
+				customPaging:function(a,t){
+					return"<span></span>"
+					// var i=e(a.$slides[t]).data("title");
+					// if(i&&p){return"<span>"+i+"</span>"+p}
+					// else if(p){return"<span></span>"+p}
+					// else if(i&&z){return"<span>"+i+"</span>"}
+					// else if(i&&!z){return"<span></span>"+'<strong class="u-dot-title">'+i+"</strong>"}
+					// else{return"<span></span>"}
+				}
+			});
+		})
+		
+
+
+		
+	</script>
+
+	<style>
+		.slick-dots {
+			display: inline-flex !important;
+		}
+	</style>
+<a data-type="fixed" data-position="{&quot;bottom&quot;: 15, &quot;left&quot;: 15}" data-offset-top="400" data-compensation=".u-header" data-show-effect="zoomIn" class="js-go-to u-go-to-v1 animated" style="display: none; position: fixed; bottom: 15px; left: 15px; opacity: 0;"><i class="hs-icon hs-icon-arrow-top"></i></a>
+	<div>
+		<div data-b24-crm-button-shadow="" class="b24-widget-button-shadow"></div>
+		<div style="display: none;">
+			<a data-b24-crm-button-widget-blank="" data-b24-crm-button-widget="" class="b24-widget-button-social-item" title="">	<i></i>
+				<span data-b24-crm-button-tooltip="" class="b24-widget-button-social-tooltip"></span>
+			</a>
+		</div>
+		
+	</div>
+</body>
+
+</html>
